@@ -30,11 +30,10 @@ int main()
 
         balance = beginningBalance + totalCharges - totalCredits;
         if (balance > creditLimit){
+            printf("Account: %f\n", accountNumber);
+            printf("Credit limit: %f\n", creditLimit);
+            printf("Credit balance: %f\n", balance);
             printf("Credit limit exceed\n");
-        }else{
-        printf("Account: %f\n", accountNumber);
-        printf("Credit limit: %f\n", creditLimit);
-        printf("Credit balance: %f\n", balance);
         }
     }
 
